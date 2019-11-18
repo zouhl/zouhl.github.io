@@ -2,19 +2,24 @@
 <html lang="zh">
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-<title>标签: Joker - Joker Blog</title>
+<title>JAVA函数式编程基础Lambda表达式 - Joker Blog</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Joker Blog">
-<meta property="og:url" content="https://zouhailang.gitee.io/blog/tags/Joker/index.html">
+    <meta name="description" content="Lambda 表达式简介 Java 8 之后推出的 Lambda 表达式开启了 Java 语言支持函数式编程 (functional programming) 的新时代。 Lambda 表达式，也称为闭包，现在很多语言都支持 Lambda表达式，如 C++、 C#、Swift、Objective-C 和 JavaScript 等。为什么 Lambda 表达式这么受欢迎？这是因为 Lambda 表">
+<meta name="keywords" content="java">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JAVA函数式编程基础Lambda表达式">
+<meta property="og:url" content="https://zouhailang.gitee.io/blog/2019/08/06/JAVA函数式编程基础----Lambda 表达式/index.html">
 <meta property="og:site_name" content="Joker Blog">
+<meta property="og:description" content="Lambda 表达式简介 Java 8 之后推出的 Lambda 表达式开启了 Java 语言支持函数式编程 (functional programming) 的新时代。 Lambda 表达式，也称为闭包，现在很多语言都支持 Lambda表达式，如 C++、 C#、Swift、Objective-C 和 JavaScript 等。为什么 Lambda 表达式这么受欢迎？这是因为 Lambda 表">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://zouhailang.gitee.io/blog/images/og_image.png">
+<meta property="og:updated_time" content="2019-08-05T17:29:14.368Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Joker Blog">
+<meta name="twitter:title" content="JAVA函数式编程基础Lambda表达式">
+<meta name="twitter:description" content="Lambda 表达式简介 Java 8 之后推出的 Lambda 表达式开启了 Java 语言支持函数式编程 (functional programming) 的新时代。 Lambda 表达式，也称为闭包，现在很多语言都支持 Lambda表达式，如 C++、 C#、Swift、Objective-C 和 JavaScript 等。为什么 Lambda 表达式这么受欢迎？这是因为 Lambda 表">
 <meta name="twitter:image" content="https://zouhailang.gitee.io/blog/images/og_image.png">
 
 
@@ -89,7 +94,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/blog/">
             
-                <img src="/blog/images/logo.svg" alt="Joker Blog" height="28">
+                <img src="/blog/images/logo.svg" alt="JAVA函数式编程基础Lambda表达式" height="28">
             
             </a>
         </div>
@@ -135,33 +140,18 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main"><div class="card">
-    <div class="card-content">
-        <nav class="breadcrumb" aria-label="breadcrumbs">
-        <ul>
-            <li><a href="/blog/tags">标签</a></li>
-            <li class="is-active"><a href="#" aria-current="page">Joker</a></li>
-        </ul>
-        </nav>
-    </div>
-</div>
-
-    <div class="card">
     
     <div class="card-content article ">
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-07-28T11:42:04.000Z">2019-07-28</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/blog/categories/电影评论/">电影评论</a>
-                </div>
+                <time class="level-item has-text-grey" datetime="2019-08-05T16:58:37.000Z">2019-08-06</time>
                 
                 
                 <span class="level-item has-text-grey">
                     
                     
-                    几秒 读完 (大约 69 个字)
+                    2 分钟 读完 (大约 231 个字)
                 </span>
                 
                 
@@ -170,12 +160,38 @@
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                <a class="has-link-black-ter" href="/blog/2019/07/28/Joker-Blog/">Joker Blog</a>
+                JAVA函数式编程基础Lambda表达式
             
         </h1>
         <div class="content">
-            <h1 id="简单说一下使用hexo-icarus感受"><a href="#简单说一下使用hexo-icarus感受" class="headerlink" title="简单说一下使用hexo icarus感受"></a>简单说一下使用hexo icarus感受</h1><p>从安装到修改配置文件，一切都非常顺利，只有一点，没有中文版让人蛋疼，网上搜索，好像是可以使用汉化达到菜单中文的效果。</p>
+            <ol>
+<li><p><strong>Lambda 表达式简介</strong></p>
+<p>Java 8 之后推出的 Lambda 表达式开启了 Java 语言支持函数式编程 (functional programming) 的新时代。 Lambda 表达式，也称为闭包，现在很多语言都支持 Lambda表达式，如 C++、 C#、Swift、Objective-C 和 JavaScript 等。为什么 Lambda 表达式这么受欢迎？这是因为 Lambda 表达式是实现支持函数式编程技术的基础。 </p>
+</li>
+<li><p><strong>函数式接口</strong></p>
+<p>Lambda 表达式实现的接口不是普通的接口，称为函数式接口，这种接口只能有一个方法。如果接口中声明多个抽象方法，那么 Lambda 表达式会发生编译错误：The target type of this expression must be a functional interface</p>
+<p><font face="STCAIYUN">我是华文彩云</font></p>
+<p>示例代码：</p>
+<figure class="highlight java hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-meta">@FunctionalInterfacce</span></span><br><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">Calculable</span> </span>&#123;</span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">calculateInt</span><span class="hljs-params">(<span class="hljs-keyword">int</span> a, <span class="hljs-keyword">int</span> b)</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<p>​</p>
+</li>
+<li><p><strong>Lambda 表达式简化形式</strong></p>
+</li>
+<li><p><strong>作为参数使用Lambda</strong></p>
+<p>​</p>
+</li>
+</ol>
+
+        </div>
+        
+        <div class="level is-size-7 is-uppercase">
+            <div class="level-start">
+                <div class="level-item">
+                    <span class="is-size-6 has-text-grey has-mr-7">#</span>
+                    <a class="has-link-grey -link" href="/blog/tags/java/">java</a>
+                </div>
+            </div>
         </div>
         
         
@@ -187,7 +203,19 @@
 
 
 
-
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/blog/2019/08/05/JAVA之高阶篇/">
+                <span class="level-item">JAVA之高阶篇</span>
+                <i class="level-item fas fa-chevron-right"></i>
+            </a>
+        </div>
+        
+    </div>
+</div>
 
 
 </div>
@@ -243,7 +271,7 @@
                         分类
                     </p>
                     <p class="title has-text-weight-normal">
-                        2
+                        1
                     </p>
                 </div>
             </div>
@@ -356,15 +384,7 @@
                 <span class="level-item">技术</span>
             </span>
             <span class="level-end">
-                <span class="level-item tag">3</span>
-            </span>
-        </a></li><li>
-        <a class="level is-marginless" href="/blog/categories/电影评论/">
-            <span class="level-start">
-                <span class="level-item">电影评论</span>
-            </span>
-            <span class="level-end">
-                <span class="level-item tag">1</span>
+                <span class="level-item tag">4</span>
             </span>
         </a></li>
             </ul>
@@ -378,7 +398,7 @@
         <h3 class="menu-label">
             标签云
         </h3>
-        <a href="/blog/tags/Joker/" style="font-size: 10px;">Joker</a> <a href="/blog/tags/java/" style="font-size: 20px;">java</a>
+        <a href="/blog/tags/Hexo-Icarus/" style="font-size: 10px;">Hexo Icarus</a> <a href="/blog/tags/java/" style="font-size: 20px;">java</a>
     </div>
 </div>
 
@@ -392,6 +412,25 @@
         <h3 class="menu-label">
             最新文章
         </h3>
+        
+        <article class="media">
+            
+            <a href="/blog/2019/08/06/JAVA函数式编程基础----Lambda 表达式/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/blog/images/thumbnail.svg" alt="JAVA函数式编程基础Lambda表达式">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-08-05T16:58:37.000Z">2019-08-06</time></div>
+                    <a href="/blog/2019/08/06/JAVA函数式编程基础----Lambda 表达式/" class="has-link-black-ter is-size-6">JAVA函数式编程基础Lambda表达式</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
         
         <article class="media">
             
@@ -452,37 +491,18 @@
         
         <article class="media">
             
-            <a href="/blog/2019/07/28/Joker-Blog/" class="media-left">
+            <a href="/blog/2019/07/28/Hexo Icarus 安装部署以及主要配置的设置/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="/blog/images/thumbnail.svg" alt="Joker Blog">
+                    <img class="thumbnail" src="/blog/images/thumbnail.svg" alt="Hexo Icarus 安装部署以及主要配置的设置">
                 </p>
             </a>
             
             <div class="media-content">
                 <div class="content">
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-07-28T11:42:04.000Z">2019-07-28</time></div>
-                    <a href="/blog/2019/07/28/Joker-Blog/" class="has-link-black-ter is-size-6">Joker Blog</a>
+                    <a href="/blog/2019/07/28/Hexo Icarus 安装部署以及主要配置的设置/" class="has-link-black-ter is-size-6">Hexo Icarus 安装部署以及主要配置的设置</a>
                     <p class="is-size-7 is-uppercase">
-                        <a class="has-link-grey -link" href="/blog/categories/电影评论/">电影评论</a>
-                    </p>
-                </div>
-            </div>
-        </article>
-        
-        <article class="media">
-            
-            <a href="/blog/2019/07/21/hello-world/" class="media-left">
-                <p class="image is-64x64">
-                    <img class="thumbnail" src="/blog/images/thumbnail.svg" alt="Hello World">
-                </p>
-            </a>
-            
-            <div class="media-content">
-                <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-07-21T09:56:00.228Z">2019-07-21</time></div>
-                    <a href="/blog/2019/07/21/hello-world/" class="has-link-black-ter is-size-6">Hello World</a>
-                    <p class="is-size-7 is-uppercase">
-                        
+                        <a class="has-link-grey -link" href="/blog/categories/技术/">技术</a>
                     </p>
                 </div>
             </div>
@@ -506,7 +526,7 @@
                     <span class="level-item">八月 2019</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">3</span>
+                    <span class="level-item tag">4</span>
                 </span>
             </a>
         </li>
@@ -517,7 +537,7 @@
                     <span class="level-item">七月 2019</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">2</span>
+                    <span class="level-item tag">1</span>
                 </span>
             </a>
         </li>
@@ -536,8 +556,8 @@
             <div class="field is-grouped is-grouped-multiline">
                 
                 <div class="control">
-                    <a class="tags has-addons" href="/blog/tags/Joker/">
-                        <span class="tag">Joker</span>
+                    <a class="tags has-addons" href="/blog/tags/Hexo-Icarus/">
+                        <span class="tag">Hexo Icarus</span>
                         <span class="tag is-grey">1</span>
                     </a>
                 </div>
@@ -545,7 +565,7 @@
                 <div class="control">
                     <a class="tags has-addons" href="/blog/tags/java/">
                         <span class="tag">java</span>
-                        <span class="tag is-grey">3</span>
+                        <span class="tag is-grey">4</span>
                     </a>
                 </div>
                 
@@ -574,6 +594,25 @@
         
         <article class="media">
             
+            <a href="/blog/2019/08/06/JAVA函数式编程基础----Lambda 表达式/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/blog/images/thumbnail.svg" alt="JAVA函数式编程基础Lambda表达式">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-08-05T16:58:37.000Z">2019-08-06</time></div>
+                    <a href="/blog/2019/08/06/JAVA函数式编程基础----Lambda 表达式/" class="has-link-black-ter is-size-6">JAVA函数式编程基础Lambda表达式</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
             <a href="/blog/2019/08/05/JAVA之高阶篇/" class="media-left">
                 <p class="image is-64x64">
                     <img class="thumbnail" src="/blog/images/thumbnail.svg" alt="JAVA之高阶篇">
@@ -631,37 +670,18 @@
         
         <article class="media">
             
-            <a href="/blog/2019/07/28/Joker-Blog/" class="media-left">
+            <a href="/blog/2019/07/28/Hexo Icarus 安装部署以及主要配置的设置/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="/blog/images/thumbnail.svg" alt="Joker Blog">
+                    <img class="thumbnail" src="/blog/images/thumbnail.svg" alt="Hexo Icarus 安装部署以及主要配置的设置">
                 </p>
             </a>
             
             <div class="media-content">
                 <div class="content">
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-07-28T11:42:04.000Z">2019-07-28</time></div>
-                    <a href="/blog/2019/07/28/Joker-Blog/" class="has-link-black-ter is-size-6">Joker Blog</a>
+                    <a href="/blog/2019/07/28/Hexo Icarus 安装部署以及主要配置的设置/" class="has-link-black-ter is-size-6">Hexo Icarus 安装部署以及主要配置的设置</a>
                     <p class="is-size-7 is-uppercase">
-                        <a class="has-link-grey -link" href="/blog/categories/电影评论/">电影评论</a>
-                    </p>
-                </div>
-            </div>
-        </article>
-        
-        <article class="media">
-            
-            <a href="/blog/2019/07/21/hello-world/" class="media-left">
-                <p class="image is-64x64">
-                    <img class="thumbnail" src="/blog/images/thumbnail.svg" alt="Hello World">
-                </p>
-            </a>
-            
-            <div class="media-content">
-                <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-07-21T09:56:00.228Z">2019-07-21</time></div>
-                    <a href="/blog/2019/07/21/hello-world/" class="has-link-black-ter is-size-6">Hello World</a>
-                    <p class="is-size-7 is-uppercase">
-                        
+                        <a class="has-link-grey -link" href="/blog/categories/技术/">技术</a>
                     </p>
                 </div>
             </div>
@@ -685,7 +705,7 @@
                     <span class="level-item">八月 2019</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">3</span>
+                    <span class="level-item tag">4</span>
                 </span>
             </a>
         </li>
@@ -696,7 +716,7 @@
                     <span class="level-item">七月 2019</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">2</span>
+                    <span class="level-item tag">1</span>
                 </span>
             </a>
         </li>
@@ -715,8 +735,8 @@
             <div class="field is-grouped is-grouped-multiline">
                 
                 <div class="control">
-                    <a class="tags has-addons" href="/blog/tags/Joker/">
-                        <span class="tag">Joker</span>
+                    <a class="tags has-addons" href="/blog/tags/Hexo-Icarus/">
+                        <span class="tag">Hexo Icarus</span>
                         <span class="tag is-grey">1</span>
                     </a>
                 </div>
@@ -724,7 +744,7 @@
                 <div class="control">
                     <a class="tags has-addons" href="/blog/tags/java/">
                         <span class="tag">java</span>
-                        <span class="tag is-grey">3</span>
+                        <span class="tag is-grey">4</span>
                     </a>
                 </div>
                 
@@ -745,7 +765,7 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/blog/">
                 
-                    <img src="/blog/images/logo.svg" alt="Joker Blog" height="28">
+                    <img src="/blog/images/logo.svg" alt="JAVA函数式编程基础Lambda表达式" height="28">
                 
                 </a>
                 <p class="is-size-7">
