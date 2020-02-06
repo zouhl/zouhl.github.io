@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-05T08:01:34.240Z</updated>
+  <updated>2020-02-06T13:50:54.640Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,15 +21,13 @@
     <link href="http://yoursite.com/2019/08/06/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
     <id>http://yoursite.com/2019/08/06/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F/</id>
     <published>2019-08-05T16:58:37.000Z</published>
-    <updated>2020-02-05T08:01:34.240Z</updated>
+    <updated>2020-02-06T13:50:54.640Z</updated>
     
-    <content type="html"><![CDATA[<font size=3 ><p>Java 8 之后推出的Lambda表达式开启了java语言支持函数式编程 (functional programming) 的新时代。 Lambda表达式，也称为闭包，现在很多语言都支持Lambda表达式，如 C++、C#、Swift、Objective-C和JavaScript等。为什么Lambda表达式这么受欢迎？这是因为 Lambda 表达式是实现支持函数式编程技术的基础。</p><a id="more"></a><p>Lambda表达式实现的接口不是普通的接口，称为函数式接口，这种接口只能有一个方法。如果接口中声明多个抽象方法，那么Lambda表达式会发生编译错误：The target type of this expression must be a functional interface<br>示例代码：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line"><span class="meta">@FunctionalInterfacce</span></span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Calculable</span> </span>&#123;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">calculateInt</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span></span>;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">4</span></pre></td><td class="code"><pre><span class="line">&#125;</span></pre></td></tr></table></figure></font>]]></content>
+    <content type="html"><![CDATA[<p>Java 8 之后推出的Lambda表达式开启了java语言支持函数式编程 (functional programming) 的新时代。 Lambda表达式，也称为闭包，现在很多语言都支持Lambda表达式，如 C++、C#、Swift、Objective-C和JavaScript等。为什么Lambda表达式这么受欢迎？这是因为 Lambda 表达式是实现支持函数式编程技术的基础。</p><a id="more"></a><p>Lambda表达式实现的接口不是普通的接口，称为函数式接口，这种接口只能有一<br>个方法。如果接口中声明多个抽象方法，那么Lambda表达式会发生编译错误：The target type of this expression must be a functional interface<br>示例代码：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line"><span class="meta">@FunctionalInterfacce</span></span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Calculable</span> </span>&#123;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">calculateInt</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span></span>;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">4</span></pre></td><td class="code"><pre><span class="line">&#125;</span></pre></td></tr></table></figure><p>d<br>d<br>d<br>d<br>d<br>d<br>d<br>d<br>d<br>d<br>d<br>d<br>d<br>d<br>d<br>d<br>d<br>d</p><p>d</p><p>d</p><p>d</p><p>d</p><p>dd</p><p>d</p><p>d</p><p>d</p><p>d</p><p>d</p><p>d</p><p>d</p><p>d</p><p>dd</p><p>d</p><p>d</p><p>d</p><p>d</p><p>d</p><p>dd</p><p>d</p><p>d</p><p>d</p><p>d</p><p>d</p>]]></content>
     
     <summary type="html">
     
-      &lt;font size=3 &gt;
-
-&lt;p&gt;Java 8 之后推出的Lambda表达式开启了java语言支持函数式编程 (functional programming) 的新时代。 Lambda表达式，也称为闭包，现在很多语言都支持Lambda表达式，如 C++、C#、Swift、Objective-C和JavaScript等。为什么Lambda表达式这么受欢迎？这是因为 Lambda 表达式是实现支持函数式编程技术的基础。&lt;/p&gt;
+      &lt;p&gt;Java 8 之后推出的Lambda表达式开启了java语言支持函数式编程 (functional programming) 的新时代。 Lambda表达式，也称为闭包，现在很多语言都支持Lambda表达式，如 C++、C#、Swift、Objective-C和JavaScript等。为什么Lambda表达式这么受欢迎？这是因为 Lambda 表达式是实现支持函数式编程技术的基础。&lt;/p&gt;
     
     </summary>
     
